@@ -6,6 +6,7 @@
         "TCOD",
         "tileset",
         "tilesheet",
-        "vsync"
+        "vsync",
+        "keydown"
     ]
 }
