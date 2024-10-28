@@ -1,4 +1,4 @@
-"""Handles key presses from the user to be interpreted as actions"""
+"""Handles key presses from the user to be interpreted as actions."""
 
 from typing import Optional
 
@@ -9,7 +9,7 @@ from actions import Action, EscapeAction, MovementAction
 
 class EventHandler(tcod.event.EventDispatch[Action]):
     """Subclass of tcod's EventDispatch class, 
-    handles keypress events from the user"""
+    handles keypress events from the user."""
 
     def ev_quit(self, event: tcod.event.Quit) -> Optional[Action]:
         raise SystemExit()

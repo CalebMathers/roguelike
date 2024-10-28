@@ -1,4 +1,4 @@
-"""Main file for game"""
+"""Main file for game."""
 
 import tcod
 from actions import EscapeAction, MovementAction
@@ -6,7 +6,7 @@ from input_handlers import EventHandler
 
 
 def main() -> None:
-    """Function to run the game itself"""
+    """Function to run the game itself."""
     screen_width = 80
     screen_height = 50
 
