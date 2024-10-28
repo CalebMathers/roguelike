@@ -1,3 +1,5 @@
+"""File containing the entity classes for the game."""
+
 from typing import Tuple
 
 
