@@ -2,7 +2,7 @@
 
 import tcod
 
-from actions import EscapeAction, MovementAction
+from engine import Engine
 from entity import Entity
 from input_handlers import EventHandler
 
